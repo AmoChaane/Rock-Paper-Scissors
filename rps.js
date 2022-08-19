@@ -207,18 +207,18 @@ function animation(r) {
     document.body.append(waitdiv);
     // document.body.append(waitdiv);   
  
-  document.addEventListener('keydown', e => {
-      if(e.key == 'Enter') {
-        o.push(1);
-        skip.remove();
-        waitdiv.remove();
-        results(choic);
-      }
-      // o.push(1);
-      //   skip.remove();
-      //   waitdiv.remove();
-      //   results(choic);
-    });
+  // document.addEventListener('keydown', e => {
+  //     if(e.key == 'Enter') {
+  //       o.push(1);
+  //       skip.remove();
+  //       waitdiv.remove();
+  //       results(choic);
+  //     }
+  //     // o.push(1);
+  //     //   skip.remove();
+  //     //   waitdiv.remove();
+  //     //   results(choic);
+  //   });
 
   // function key() {
 
